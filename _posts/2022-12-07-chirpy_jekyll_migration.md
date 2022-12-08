@@ -1,6 +1,7 @@
 ---
 title: Chirpy Jekyll Theme Migration
-date: 2022-12-07 09:00:00 +0900
+date: 2022-12-07 20:00:00 -0500
+description: paolochang github-blog github blog chirpy jekyll theme
 categories: [Jekyll]
 tags: [Ruby, Jekyll]
 ---
