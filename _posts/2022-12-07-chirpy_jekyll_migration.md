@@ -7,6 +7,13 @@ tags: [Ruby, Jekyll]
 
 `Minimal Mistake`에서 `Chirpy`로 Migration 하면서 있었던 기록입니다.
 
+## Problem Keywords
+
+- fatal error: 'ruby/config.h' file not found
+- Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+- fatal error: 'openssl/ssl.h' file not found
+- An error occurred while installing eventmachine (1.2.7), and Bundler cannot continue.
+
 ## Troubleshoot
 
 1. `chirpy jekyll theme` 프로젝트의 dependencies를 설치해 줍니다. 설치과정에서 해당 애러메세지를 따로 저장해놓지는 못했지만 저와 비슷한 문제로 질문올린 애러메세지를 대신 사용하였습니다.
