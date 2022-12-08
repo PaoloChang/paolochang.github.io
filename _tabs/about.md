@@ -10,6 +10,8 @@ order: 4
   margin-top: 80px;
 }
 [class*="about__title"] {
+  display: block;
+  margin-bottom: 20px;
   font-size: x-large;
 }
 [class*="experience__container"] {
@@ -83,7 +85,6 @@ order: 4
 
 <div class=about__content>
   <strong class=about__title>💪 Skills</strong>
-  <hr/>
   <ul class=skills__contents>
     <li class=skills__item>JavaScript</li>
     <li class=skills__item>ES6</li>
@@ -109,5 +110,4 @@ order: 4
     <li class=skills__item>Jenkins</li>
     <li class=skills__item>Jira</li>
   </ul>
-  <hr/>
 </div>
