@@ -2,9 +2,7 @@
 layout: page
 title: Snapshots
 date: 2022-12-07 09:00:00 +0900
-description: paolochang github-blog github blog react native expo font
-categories: [Jekyll]
-tags: [Ruby, Jekyll]
+description: paolochang github-blog github blog project snapshots instagram instaclone
 ---
 
 <style type='text/css'>
