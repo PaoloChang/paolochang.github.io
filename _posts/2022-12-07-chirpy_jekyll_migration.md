@@ -126,7 +126,7 @@ tags: [Ruby, Jekyll]
    ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-darwin21]
    ```
 
-4. Version upgrade 이후 애러메세지는 이전과는 다를것을 볼수 있었는데, `fatal error: openssl/ssl.h` file not found 라는 메세지가 보입니다.
+4. Version upgrade 이후 애러메세지는 이전과는 다를것을 볼수 있었는데, `fatal error: 'openssl/ssl.h' file not found` 라는 메세지가 보입니다.
 
    ```
    Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
