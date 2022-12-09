@@ -155,7 +155,7 @@ defaults:
       type: projects
     values:
       layout: page
-      permalink: /:title/
+      permalink: /projects/:title/
   - scope:
       path: _drafts
     values:
