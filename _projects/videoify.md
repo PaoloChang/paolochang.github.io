@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: project
 title: Videoify
 date: 2022-12-07 09:00:00 +0900
 description: paolochang github-blog github blog project videoify youtube
+toc: true
 ---
 
 <style type='text/css'>
@@ -47,10 +48,8 @@ description: paolochang github-blog github blog project videoify youtube
 }
 </style>
 
-<!-- <a class=goback href='/projects'>Go back</a> -->
-
 <div class=project__content>
-  <strong class=content__title>🛠️ Technologies</strong>
+  <h2 class=content__title>🛠️ Technologies</h2>
   <ul class=project__technologies>
     <li class=technology__item>Node.js</li>
     <li class=technology__item>ES6</li>
@@ -72,14 +71,14 @@ description: paolochang github-blog github blog project videoify youtube
 </div>
 
 <div class=project__content>
-  <strong class=content__title>🪄 Visual Sample · 
+  <h2 class=content__title>🪄 Visual Sample · 
     <a href='https://paolochang-nmdtube.fly.dev/' target='_blank'>DEMO</a>
-  </strong>
+  </h2>
   <img src="/assets/img/project_videoify_home.png" alt="Videoify Home" width="100%">
 </div>
 
 <div class=project__content>
-  <strong class=content__title>💡 Functions</strong>
+  <h2 class=content__title>💡 Functions</h2>
   <div class=project__functions>
     <div class=function__sector>
       <strong>Back End</strong>

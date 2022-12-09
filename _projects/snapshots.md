@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: project
 title: Snapshots
 date: 2022-12-07 09:00:00 +0900
 description: paolochang github-blog github blog project snapshots instagram instaclone
+toc: true
 ---
 
 <style type='text/css'>
@@ -45,7 +46,7 @@ description: paolochang github-blog github blog project snapshots instagram inst
 </style>
 
 <div class=project__content>
-  <strong class=content__title>🛠️ Technologies</strong>
+  <h2 class=content__title>🛠️ Technologies</h2>
   <ul class=project__technologies>
     <li class=technology__item>NodeJS</li>
     <li class=technology__item>ES6</li>
@@ -66,7 +67,7 @@ description: paolochang github-blog github blog project snapshots instagram inst
 </div>
 
 <div class=project__content>
-  <strong class=content__title>💡 Functions</strong>
+  <h2 class=content__title>💡 Functions</h2>
   <div class=project__functions>
     <div class=function__sector>
       <strong>Users</strong>

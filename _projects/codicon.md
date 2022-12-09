@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: project
 title: Codicon
 date: 2022-12-07 09:00:00 +0900
 description: paolochang github-blog github blog project codicon
+toc: true
 ---
 
 <style type='text/css'>
@@ -45,7 +46,7 @@ description: paolochang github-blog github blog project codicon
 </style>
 
 <div class=project__content>
-  <strong class=content__title>🛠️ Technologies</strong>
+  <h2 class=content__title>🛠️ Technologies</h2>
   <ul class=project__technologies>
     <li class=technology__item>React</li>
     <li class=technology__item>Vite</li>
@@ -53,17 +54,17 @@ description: paolochang github-blog github blog project codicon
 </div>
 
 <div class=project__content>
-  <strong class=content__title>🪄 Visual Sample · 
+  <h2 class=content__title>🪄 Visual Sample · 
     <a href='https://codicon.netlify.app/' target='_blank'>DEMO</a>
-  </strong>
+  </h2>
   <img src="/assets/img/project_codicon_home.png" alt="Codicon Home" width="100%">
 </div>
 
 <div class=project__content>
-  <strong class=content__title>💡 Functions</strong>
+  <h2 class=content__title>💡 Functions</h2>
   <div class=project__functions>
     <div class=function__sector>
-      <strong>Icon</strong>
+      <strong>Front End</strong>
       <ul class=function__list>
         <li><i class='function__item fas fa-check'></i>HTML CSS Editor</li>
         <li><i class='function__item fas fa-check'></i>Icon Preview</li>
