@@ -2,7 +2,7 @@
 # the default layout is 'page'
 title: I'm Paolo Chang,　　　　　　　　　　<br/>a Software Developer
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
 <style type='text/css'>
