@@ -93,6 +93,7 @@ order: 5
     <li class=skills__item>React Native</li>
     <li class=skills__item>Redux</li>
     <li class=skills__item>Webpack</li>
+    <li class=skills__item>AJAX</li>
     <li class=skills__item>Node.js</li>
     <li class=skills__item>Express.js</li>
     <li class=skills__item>REST</li>

@@ -52,8 +52,9 @@ toc: true
   <h2 class=content__title>🛠️ Technologies</h2>
   <ul class=project__technologies>
     <li class=technology__item>Node.js</li>
-    <li class=technology__item>ES6</li>
     <li class=technology__item>Express.js</li>
+    <li class=technology__item>JavaScript</li>
+    <li class=technology__item>ES6</li>
     <li class=technology__item>Babel</li>
     <li class=technology__item>MongoDB</li>
     <li class=technology__item>Mongoose</li>

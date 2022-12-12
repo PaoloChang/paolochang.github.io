@@ -32,7 +32,7 @@ order: 1
 </style>
 
 <div class=about__content>
-  <strong class=about__title>👀 Find out interesting projects</strong>
+  <strong class=about__title>🗂 Find out interesting projects</strong>
   <hr/>
   <div class=project__container>
     <strong class=project__title>
