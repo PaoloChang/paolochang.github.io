@@ -2,8 +2,8 @@
 title: Chirpy Jekyll Theme Migration
 date: 2022-12-07 20:00:00 -0500
 description: paolochang github-blog github blog chirpy jekyll theme
-categories: [Jekyll]
-tags: [Ruby, Jekyll]
+categories: [Jekyll, Chirpy]
+tags: [Jekyll, Ruby]
 ---
 
 `Minimal Mistake`에서 `Chirpy`로 Migration 하면서 있었던 기록입니다.

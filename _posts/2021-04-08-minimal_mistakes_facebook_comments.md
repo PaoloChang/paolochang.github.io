@@ -2,8 +2,8 @@
 title: Jekyll Facebook Comments Plugin
 date: 2021-04-08 12:00:00 -0500
 description: paolochang github-blog github blog minimal-mistakes plugin
-categories: [Jekyll]
-tags: [Jekyll, Minimal Mistakes, Plugin]
+categories: [Jekyll, Minimal Mistakes]
+tags: [Jekyll, Minimal Mistakes]
 ---
 
 Jekyll blog 에 Facebook Comments Plugin 으로 Comments 기능을 활성화 한 방법을 서술한다.

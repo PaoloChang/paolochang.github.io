@@ -2,7 +2,7 @@
 title: Algorithm and Time Complexity
 date: 2021-04-18 12:00:00 -0500
 description: paolochang github-blog github blog algorithm time complexity
-categories: [Algorithm]
+categories: [Algorithms]
 tags: [Algorithm]
 ---
 

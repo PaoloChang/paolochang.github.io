@@ -2,7 +2,7 @@
 title: Minimal Mistakes 간단 사용법
 date: 2021-04-05 12:00:00 -0500
 description: paolochang github-blog github blog jekyll minimal-mistake
-categories: [Jekyll]
+categories: [Jekyll, Minimal Mistakes]
 tags: [Jekyll, Minimal Mistakes]
 ---
 
