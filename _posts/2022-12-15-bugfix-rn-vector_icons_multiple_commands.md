@@ -7,14 +7,14 @@ tags: [React Native, Bugfix, iOS]
 ---
 
 <style type='text/css'>
-pre {
+.rouge-code pre {
   overflow: auto !important;
   overflow-wrap: anywhere !important;
   white-space: pre-wrap;
 }
 </style>
 
-`xcode`에 `react-native-vector-icons`로 Fonts를 등록하는 과정에서 다중의 Fonts path로 인한 오류로 짐작된다. `pod install`에서 등록되는 `[CP] Copy Pods Resources`와 `Copy Bundle Resources`에 충돌인데 `Copy Bundle Resources` 안의 Fonts를 지워주는 것으로 오류를 해결 할 수 있다.
+`Xcode`에서 `react-native-vector-icons`을 등록하는 과정에서 다중의 Fonts path로 인한 오류로 짐작된다. `pod install`에서 등록되는 `[CP] Copy Pods Resources`와 `Copy Bundle Resources`에 충돌인데 `Copy Bundle Resources` 안의 Fonts를 지워주는 것으로 오류를 해결 할 수 있다.
 
 ## Error Message
 
@@ -56,10 +56,10 @@ pre {
 
 2. Xcode 를 열어 MyApp project 에서 New Group: `Fonts`를 만들고 `Add files to 'MyApp'`으로 사용할 Fonts(`.ttf`)를 선택한다.
 
-   ```sh
+   ```
    MyApp
    ├── MyApp
-   │   ├── Fonts # <- create new group: Fonts and add fonts here
+   │   ├── Fonts <- create new group: Fonts and add fonts here
    │   ├── AppDelegate.h
    │   ├── AppDelegate.mm
    │   ├── Images
