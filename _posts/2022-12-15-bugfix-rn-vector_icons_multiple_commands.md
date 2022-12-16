@@ -56,7 +56,7 @@ tags: [React Native, Bugfix, iOS]
 
 2. Xcode 를 열어 MyApp project 에서 New Group: `Fonts`를 만들고 `Add files to 'MyApp'`으로 사용할 Fonts(`.ttf`)를 선택한다.
 
-   ```
+   ```sh
    MyApp
    ├── MyApp
    │   ├── Fonts <- create new group: Fonts and add fonts here
@@ -74,6 +74,20 @@ tags: [React Native, Bugfix, iOS]
    ```
 
 3. `MyApp` > `Build Phase` > `Copy Bundle Resources`로 이동하여 Fonts에 이전 Step에서 넣었던 Fonts들을 지워준다.
+
+4. `react-native.config.js` 안에 `react-native-vector-icons` dependencies settings 한다
+
+   ```js
+   module.exports = {
+     dependencies: {
+       "react-native-vector-icons": {
+         platforms: {
+           ios: null,
+         },
+       },
+     },
+   };
+   ```
 
 ## Reference
 
