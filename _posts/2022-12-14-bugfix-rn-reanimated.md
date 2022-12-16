@@ -6,6 +6,14 @@ categories: [Mobile, React Native]
 tags: [React Native, Bugfix]
 ---
 
+<style type='text/css'>
+.rouge-code pre {
+  overflow: auto !important;
+  overflow-wrap: anywhere !important;
+  white-space: pre-wrap;
+}
+</style>
+
 `@react-navigation/drawer` package의 dependency의 하나인 `react-native-reanimated` 설치과정에서 나타나는 오류로 `React Navigation > Drawer Navigator` Document 외에 별도의 설정이 필요하다.
 
 ## React Native Renanimated
@@ -22,14 +30,11 @@ tags: [React Native, Bugfix]
 
 ## Troubleshoot & Problem Solve
 
-Installing the package
-First step is to install react-native-reanimated as a dependency in your project:
-
 1. `react-native-reanimated`를 설치한다.
 
-   > ```
-   > yarn add react-native-reanimated
-   > ```
+   ```sh
+   yarn add react-native-reanimated
+   ```
 
 2. `babel.config.js` 파일 생성 후, `plugins`에 `react-native-reanimated/plugin`를 추가한다.
 
