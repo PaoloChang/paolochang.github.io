@@ -1,10 +1,12 @@
 ---
-title: "Error: React Native Reanimated"
+title: "Bugfix: React Native Reanimated"
 date: 2022-12-14 12:00:00 -0500
 description: paolochang github-blog github blog reactnative mobile
 categories: [Mobile, React Native]
-tags: [React Native, Bug Fix]
+tags: [React Native, Bugfix]
 ---
+
+`@react-navigation/drawer` package의 dependency의 하나인 `react-native-reanimated` 설치과정에서 나타나는 오류로 `React Navigation > Drawer Navigator` Document 외에 별도의 설정이 필요하다.
 
 ## React Native Renanimated
 
@@ -23,28 +25,30 @@ tags: [React Native, Bug Fix]
 Installing the package
 First step is to install react-native-reanimated as a dependency in your project:
 
-> ```
-> yarn add react-native-reanimated
-> ```
+1. `react-native-reanimated`를 설치한다.
 
-Babel plugin
-Add Reanimated's Babel plugin to your babel.config.js:
+   > ```
+   > yarn add react-native-reanimated
+   > ```
 
-> ```
->  module.exports = {
->    presets: [
->      ...
->    ],
->    plugins: [
->      ...
->      'react-native-reanimated/plugin',
->    ],
->  };
-> ```
+2. `babel.config.js` 파일 생성 후, `plugins`에 `react-native-reanimated/plugin`를 추가한다.
 
-> CAUTION: Reanimated plugin has to be listed last.
-{: .prompt-warning }
+   ```js
+    module.exports = {
+      presets: [
+        ...
+      ],
+      plugins: [
+        ...
+        'react-native-reanimated/plugin',
+      ],
+    };
+   ```
+
+   > CAUTION: Reanimated plugin has to be listed last.
+   {: .prompt-warning }
 
 ## Reference
 
+- [React Navigation > Drawer Navigator](https://reactnavigation.org/docs/drawer-navigator)
 - [React Native Reanimated > Fundamentals > Installation](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/)
