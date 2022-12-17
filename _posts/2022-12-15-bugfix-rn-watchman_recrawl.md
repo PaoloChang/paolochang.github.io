@@ -1,5 +1,5 @@
 ---
-title: "Bugfix: watchman warning Recrawled"
+title: "React Native: fix watchman Recrawled warning"
 date: 2022-12-15 12:00:00 -0500
 description: paolochang github-blog github blog reactnative mobile bugfix
 categories: [Mobile, React Native]
@@ -18,19 +18,19 @@ tags: [React Native, Bugfix]
 
 ## Error Message
 
-> ```
+> <pre>
 > watchman warning:  Recrawled this watch 1 times, most recently because:
 > MustScanSubDirs UserDroppedTo resolve, please review the information on
 > https://facebook.github.io/watchman/docs/troubleshooting.html#recrawl
 > To clear this warning, run:
-> `watchman watch-del '/Users/<username>/Documents/workspace/MyApp' ; watchman watch-project '/Users/<username>/Documents/workspace/MyApp'`
-> ```
+> `watchman watch-del '/Users/username/Documents/workspace/MyApp' ; watchman watch-project '/Users/username/Documents/workspace/MyApp'`
+> </pre>
 
 ## Solution
 
-```
-$ watchman watch-del '/Users/<username>/Documents/workspace/MyApp'
-$ watchman watch-project '/Users/<username>/Documents/workspace/MyApp'
+```sh
+$ watchman watch-del '/Users/username/Documents/workspace/MyApp'
+$ watchman watch-project '/Users/username/Documents/workspace/MyApp'
 ```
 
 ## Reference

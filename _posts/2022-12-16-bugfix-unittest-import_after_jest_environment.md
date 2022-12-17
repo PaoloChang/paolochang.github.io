@@ -1,5 +1,5 @@
 ---
-title: "Bugfix: `import` a file after the Jest environment has been torn down"
+title: "Unit Test: fix `import` a file after the Jest environment has been torn down"
 date: 2022-12-16 12:00:00 -0500
 description: paolochang github-blog github blog unittest jest bugfix
 categories: [Unit Test, Jest]
@@ -63,10 +63,10 @@ Component 내 사용하는 module의 loading 시간이 초과되었을때 나타
 >      at describeFiber (node_modules/react-test-renderer/cjs/react-test-renderer.development.js:2686:14)
 > 
 >  ●  <span class=err_r><strong class=err_b>Cannot log after tests are done.</strong> Did you forget to wait for something async in your test?</span>
->    Attempted to log "The above error occurred in the <ForwardRef(NavigationContainerInner)> component:
+>    Attempted to log "The above error occurred in the &lt;ForwardRef(NavigationContainerInner)&gt; component:
 > 
->        at NavigationContainerInner (/Users/<username>/Documents/workspace/MyApp/node_modules/@react-navigation/native/src/NavigationContainer.tsx:107:23)
->        at AppNav (/Users/<username>/Documents/workspace/MyApp/src/navigation/AppNav.js:13:48)
+>        at NavigationContainerInner (/Users/username/Documents/workspace/MyApp/node_modules/@react-navigation/native/src/NavigationContainer.tsx:107:23)
+>        at AppNav (/Users/username/Documents/workspace/MyApp/src/navigation/AppNav.js:13:48)
 >        at App
 > 
 >    Consider adding an error boundary to your tree to customize error handling behavior.
@@ -79,8 +79,7 @@ Component 내 사용하는 module의 loading 시간이 초과되었을때 나타
 >     Call retries were exceeded
 > 
 >       at ChildProcessWorker.initialize (node_modules/jest-worker/build/workers/ChildProcessWorker.js:193:21)
-> 
-> <pre>
+> </pre>
 
 ## Solution
 
@@ -124,7 +123,7 @@ OR
 
 OR
 
-- Add `jest.useFakeTimers();` to `setupTests.js` 
+- Add `jest.useFakeTimers();` to `setupTests.js`
 
   ```js
   jest.useFakeTimers();

@@ -1,9 +1,9 @@
 ---
-title: "Bugfix: React Native Vector Icons"
+title: "React Native: build fail on iOS using 'react-native-vector-icons'"
 date: 2022-12-15 12:00:00 -0500
 description: paolochang github-blog github blog reactnative mobile bugfix
 categories: [Mobile, React Native]
-tags: [React Native, Bugfix, iOS]
+tags: [React Native, Bugfix, iOS, Xcode, Build Fail]
 ---
 
 <style type='text/css'>
@@ -18,37 +18,37 @@ tags: [React Native, Bugfix, iOS]
 
 ## Error Message
 
-> ```
+> <pre>
 > error Failed to build iOS project. We ran "xcodebuild" command but it exited with error code 65. To debug build logs further, consider building your app with Xcode.app, by opening MyApp.xcworkspace.
 > Command line invocation:
->     /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace MyApp.xcworkspace -configuration Debug -scheme MyApp -destination id=<id>
->
+>     /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace MyApp.xcworkspace -configuration Debug -scheme MyApp -destination id=MyApp_id
+> 
 > User defaults from command line:
 >     IDEPackageSupportUseBuiltinSCM = YES
->
+> 
 > Prepare packages
->
+> 
 > Computing target dependency graph and provisioning inputs
->
+> 
 > Create build description
-> Build description signature: <build-description-signature>
-> Build description path: /Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Intermediates.noindex/XCBuildData/<build-description-signature>-desc.xcbuild
->
+> Build description signature: &lt;build-description-signature&gt;
+> Build description path: /Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Intermediates.noindex/XCBuildData/&lt;build-description-signature&gt;-desc.xcbuild
+> 
 > note: Building targets in dependency order
-> error: Multiple commands produce '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/AntDesign.ttf'
->     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/<username>/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/AntDesign.ttf' to '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/AntDesign.ttf'
+> error: Multiple commands produce '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/AntDesign.ttf'
+>     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/username/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/AntDesign.ttf' to '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/AntDesign.ttf'
 >     note: That command depends on command in Target 'MyApp' (project 'MyApp'): script phase “[CP] Copy Pods Resources”
-> error: Multiple commands produce '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Entypo.ttf'
->     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/<username>/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/Entypo.ttf' to '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Entypo.ttf'
+> error: Multiple commands produce '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Entypo.ttf'
+>     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/username/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/Entypo.ttf' to '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Entypo.ttf'
 >     note: That command depends on command in Target 'MyApp' (project 'MyApp'): script phase “[CP] Copy Pods Resources”
-> error: Multiple commands produce '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/EvilIcons.ttf'
->     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/<username>/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf' to '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/EvilIcons.ttf'
+> error: Multiple commands produce '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/EvilIcons.ttf'
+>     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/username/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf' to '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/EvilIcons.ttf'
 >     note: That command depends on command in Target 'MyApp' (project 'MyApp'): script phase “[CP] Copy Pods Resources”
-> error: Multiple commands produce '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Feather.ttf'
->     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/<username>/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/Feather.ttf' to '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Feather.ttf'
+> error: Multiple commands produce '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Feather.ttf'
+>     note: Target 'MyApp' (project 'MyApp') has copy command from '/Users/username/Documents/workspace/MyApp/node_modules/react-native-vector-icons/Fonts/Feather.ttf' to '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/Feather.ttf'
 >     note: That command depends on command in Target 'MyApp' (project 'MyApp'): script phase “[CP] Copy Pods Resources”
-> error: Multiple commands produce '/Users/<username>/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/FontAwesome.ttf'
-> ```
+> error: Multiple commands produce '/Users/username/Library/Developer/Xcode/DerivedData/MyApp/Build/Products/Debug-iphonesimulator/MyApp.app/FontAwesome.ttf'
+>  </pre>
 
 ## Solution
 
@@ -56,7 +56,7 @@ tags: [React Native, Bugfix, iOS]
 
 2. Xcode 를 열어 MyApp project 에서 New Group: `Fonts`를 만들고 `Add files to 'MyApp'`으로 사용할 Fonts(`.ttf`)를 선택한다.
 
-   ```sh
+   ```
    MyApp
    ├── MyApp
    │   ├── Fonts <- create new group: Fonts and add fonts here
@@ -72,6 +72,7 @@ tags: [React Native, Bugfix, iOS]
    ├── Frameworks
    └── Pod
    ```
+   {: file='File Path'}
 
 3. `MyApp` > `Build Phase` > `Copy Bundle Resources`로 이동하여 Fonts에 이전 Step에서 넣었던 Fonts들을 지워준다.
 

@@ -1,5 +1,5 @@
 ---
-title: "Bugfix: React Native Reanimated"
+title: "React Native: fix 'react-native-reanimated' error"
 date: 2022-12-14 12:00:00 -0500
 description: paolochang github-blog github blog reactnative mobile
 categories: [Mobile, React Native]

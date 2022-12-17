@@ -1,5 +1,5 @@
 ---
-title: "Jest: Setup React Native Apps for Testing"
+title: "Unit Test: Setup React Native Apps for Testing"
 date: 2022-12-16 10:00:00 -0500
 description: paolochang github-blog github blog unittest jest setup
 categories: [Unit Test, Jest]
