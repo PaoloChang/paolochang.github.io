@@ -7,7 +7,7 @@ tags: [React Native, Bugfix]
 ---
 
 <style type='text/css'>
-.rouge-code pre {
+blockquote pre {
   overflow: auto !important;
   overflow-wrap: anywhere !important;
   white-space: pre-wrap;
@@ -18,7 +18,7 @@ tags: [React Native, Bugfix]
 
 ## React Native Renanimated
 
-> ```
+> <pre>
 > ERROR  Error: Failed to initialize react-native-reanimated library, make sure you followed installation steps here: https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/
 > 1) Make sure reanimated's babel plugin is installed in your babel.config.js (you should have 'react-native-reanimated/plugin' listed there - also see the above link for details)
 > 2) Make sure you reset build cache after updating the config, run: yarn start --reset-cache, js engine: hermes
@@ -26,7 +26,7 @@ tags: [React Native, Bugfix]
 >         A frequent cause of the error is that the application entry file path is incorrect. This can also happen when the JS bundle is corrupt or there is an early initialization error when loading React Native., js engine: hermes
 >  ERROR  Invariant Violation: Failed to call into JavaScript module method AppRegistry.runApplication(). Module has not been registered as callable. Registered callable JavaScript modules (n = 11): Systrace, JSTimers, HeapCapture, SamplingProfiler, RCTLog, RCTDeviceEventEmitter, RCTNativeAppEventEmitter, GlobalPerformanceLogger, JSDevSupportModule, HMRClient, RCTEventEmitter.
 >         A frequent cause of the error is that the application entry file path is incorrect. This can also happen when the JS bundle is corrupt or there is an early initialization error when loading React Native., js engine: hermes
-> ```
+> <pre>
 
 ## Troubleshoot & Problem Solve
 
@@ -49,6 +49,7 @@ tags: [React Native, Bugfix]
       ],
     };
    ```
+   {: file='babel.config.js'}
 
    > CAUTION: Reanimated plugin has to be listed last.
    {: .prompt-warning }
