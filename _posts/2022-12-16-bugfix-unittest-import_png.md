@@ -28,7 +28,7 @@ blockquote pre {
 > SyntaxError: Invalid or unexpected token
 >     at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
 >     at Object.<anonymous> (node_modules/@react-navigation/elements/src/index.tsx:20:3)
-> </pre>
+> 
 
 ## Solution
 
