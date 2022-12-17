@@ -2,7 +2,7 @@
 title: "Git: Pull Request and Template"
 date: 2021-11-21 12:00:00 -0500
 description: paolochang github-blog github blog PR template
-categories: [Git]
+categories: [Version Control, Git]
 tags: [Git]
 ---
 

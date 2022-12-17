@@ -7,7 +7,7 @@ tags: [React Native, Bugfix]
 ---
 
 <style type='text/css'>
-.rouge-code pre {
+blockquote pre {
   overflow: auto !important;
   overflow-wrap: anywhere !important;
   white-space: pre-wrap;

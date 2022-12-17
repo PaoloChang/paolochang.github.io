@@ -2,7 +2,7 @@
 title: TypeScript Types
 date: 2021-04-06 12:00:00 -0500
 description: paolochang github-blog github blog typescript types
-categories: [TypeScript]
+categories: [JavaScript, TypeScript]
 tags: [TypeScript]
 ---
 

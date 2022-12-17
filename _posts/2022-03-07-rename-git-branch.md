@@ -2,7 +2,7 @@
 title: "Git: Rename a Local and Remote Git Branch"
 date: 2022-03-07 12:00:00 -0500
 description: paolochang github-blog github blog rename git branch
-categories: [Git]
+categories: [Version Control, Git]
 tags: [Git]
 ---
 
@@ -14,13 +14,13 @@ tags: [Git]
 
 1. 이름을 바꾸고자 하는 `local branch`로 들어간다.
 
-   ```
+   ```sh
    $ git checkout <old_branch_name>
    ```
 
 2. `branch`에 새로운 이름을 부여한다.
 
-   ```
+   ```sh
    $ git branch -m <new_branch_name>
    ```
 
@@ -30,13 +30,13 @@ tags: [Git]
 
 1. 새로운 `branch`를 `upstream`을 이용해 `reset`한다
 
-   ```
+   ```sh
    $ git push origin -u <new_branch_name>
    ```
 
 2. 바뀌기 전 `branch`를 지운다.
 
-   ```
+   ```sh
    $ git push origin --delete <old_branch_name>
    ```
 

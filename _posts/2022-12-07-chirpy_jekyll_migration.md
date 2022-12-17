@@ -118,7 +118,7 @@ blockquote pre {
    >   jekyll was resolved to 3.8.3, which depends on
    >     em-websocket was resolved to 0.5.1, which depends on
    >       eventmachine
-   > <pre>
+   > </pre>
 
    - Reference: [How to fix "ERROR: Failed to build gem native extension." when installing eventmachine on macOS Mojave](https://stackoverflow.com/q/54656946)
 

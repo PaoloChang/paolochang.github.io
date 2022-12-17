@@ -2,7 +2,7 @@
 title: "Deployment: fix conflicting peer dependency on React while deploying on Netlify"
 date: 2022-08-27 12:00:00 -0500
 description: paolochang github-blog github blog deployment netlify react
-categories: [Deployment]
+categories: [Deployment, Netlify]
 tags: [React, Netlify]
 ---
 

@@ -23,7 +23,7 @@ blockquote pre {
 > ● Test suite failed to run
 > 
 > /Users/username/Documents/workspace/MyApp/node_modules/@react-navigation/elements/lib/commonjs/assets/back-icon.png:1
-> ({"Object.&lt;anonymous&gt;":function(module,exports,require,**dirname,**filename,global,jest){�PNG
+> ({"Object.&lt;anonymous&gt;":function(module,exports,require,__dirname,__filename,global,jest){�PNG
 > 
 > SyntaxError: Invalid or unexpected token
 >     at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)

@@ -102,3 +102,4 @@ jest.mock("react-native-video", () => "Video");
 
 - [Testing React Native Apps](https://jestjs.io/docs/tutorial-react-native)
 - [Jest CLI Options](https://archive.jestjs.io/docs/en/23.x/cli)
+- [React - Testing Recipes](https://reactjs.org/docs/testing-recipes.html)

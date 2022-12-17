@@ -2,7 +2,7 @@
 title: Theme with styled-components and TypeScript
 date: 2021-04-11 12:00:00 -0500
 description: paolochang github-blog github blog typescript styled-components theme
-categories: [TypeScript]
+categories: [JavaScript, TypeScript]
 tags: [TypeScript, styled-components, theme]
 ---
 
