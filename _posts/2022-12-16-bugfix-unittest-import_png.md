@@ -22,13 +22,13 @@ blockquote pre {
 > <span style="color:red;">FAIL</span> src/__tests__/App-test.js
 > ● Test suite failed to run
 > 
-> /Users/<username>/Documents/workspace/MyApp/node_modules/@react-navigation/elements/lib/commonjs/assets/back-icon.png:1
-> ({"Object.<anonymous>":function(module,exports,require,**dirname,**filename,global,jest){�PNG
+> /Users/username/Documents/workspace/MyApp/node_modules/@react-navigation/elements/lib/commonjs/assets/back-icon.png:1
+> ({"Object.&lt;anonymous&gt;":function(module,exports,require,**dirname,**filename,global,jest){�PNG
 > 
 > SyntaxError: Invalid or unexpected token
 >     at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
->     at Object.<anonymous> (node_modules/@react-navigation/elements/src/index.tsx:20:3)
-> 
+>     at Object.&lt;anonymous&gt; (node_modules/@react-navigation/elements/src/index.tsx:20:3)
+> </pre>
 
 ## Solution
 
