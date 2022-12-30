@@ -41,9 +41,11 @@ TypeScript에서 흔히 발견되는 간단한 Type 오류 메세지에 대하�
 
 ## Error Message
 
+> <pre>
 > import crypto
 > 'crypto' is declared but its value is never read.ts(6133)
 > Module '"crypto"' has no default export.ts(1192)
+> </pre>
 
 ## Solution
 
@@ -76,8 +78,10 @@ OR
 
   `ts-node` package를 사용한다면 아래와 같은 오류가 발생하지 않는다. 만약 아래와 같은 오류가 발생한다면 `@types/node` 안에 정의되있는 `crypto.d.ts` 파일을 받아 오류를 없앨수 있다.
 
+  > <pre>
   > 'crypto' is declared but its value is never read. ts(6133)
   > Cannot find module 'crypto' or its corresponding type declarations. ts(2307)
+  > </pre>
 
   `DefinitelyTyped`: 여러 개발자들이 참여한 오픈소스로 npm에 존재하는 수많은 오픈소스 프로젝트를 분석하고 `d.ts`파일을 정의해 TypeScript가 이해할수 있도록 정의해놓은 package이다.
 
