@@ -12,10 +12,10 @@ blockquote pre {
   overflow-wrap: anywhere !important;
   white-space: pre-wrap;
 }
-[class*="kw"] {
+[class*="keyword"] {
   color: #14A7CD;
 }
-[class*="cn"] {
+[class*="classname"] {
   color: #E5E50E;
 }
 [class*="err_b"] {

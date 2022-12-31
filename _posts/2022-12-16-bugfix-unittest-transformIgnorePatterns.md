@@ -12,10 +12,10 @@ blockquote pre {
   overflow-wrap: anywhere !important;
   white-space: pre-wrap;
 }
-[class*="kw"] {
+[class*="keyword"] {
   color: #14A7CD;
 }
-[class*="cn"] {
+[class*="classname"] {
   color: #E5E50E;
 }
 [class*="err_b"] {
@@ -41,10 +41,10 @@ blockquote pre {
 > 
 >       8 |   // The mock for `call` immediately calls the callback which is incorrect
 >       9 |   // So we override it with a no-op
->    <span class=err_b>></span> 10 |   <span class=cn>Reanimated</span>.<span class=kw>default</span>.call = () => {};
+>    <span class=err_b>></span> 10 |   <span class=classname>Reanimated</span>.<span class=keyword>default</span>.call = () => {};
 >         |                          <span class=err_b>^</span>
 >      11 |
->      12 |   <span class=kw>return</span> <span class=cn>Reanimated</span>;
+>      12 |   <span class=keyword>return</span> <span class=classname>Reanimated</span>;
 >      13 | });
 > 
 >      at setupTests.js:10:26

@@ -12,10 +12,10 @@ blockquote pre {
   overflow-wrap: anywhere !important;
   white-space: pre-wrap;
 }
-[class*="kw"] {
+[class*="keyword"] {
   color: #14A7CD;
 }
-[class*="cn"] {
+[class*="classname"] {
   color: #E5E50E;
 }
 [class*="err_b"] {
@@ -48,13 +48,13 @@ Component 내 사용하는 module의 loading 시간이 초과되었을때 나타
 > 
 > ReferenceError: You are trying to `import` a file after the Jest environment has been torn down.
 > 
->      11 | <span class=kw>const</span> <span class=cn>AppNav</span> = () => {
->      12 |   <span class=kw>const</span> scheme = useColorScheme();
+>      11 | <span class=keyword>const</span> <span class=classname>AppNav</span> = () => {
+>      12 |   <span class=keyword>const</span> scheme = useColorScheme();
 >    <span class=err_b>></span> 13 |
 >         | <span class=err_b>^</span>
->      14 |   <span class=kw>let</span> user = <span class=kw>null</span>;
+>      14 |   <span class=keyword>let</span> user = <span class=keyword>null</span>;
 >      15 |
->      16 |   <span class=kw>return</span> (
+>      16 |   <span class=keyword>return</span> (
 > 
 >      at Object.get useColorScheme [as useColorScheme] (node_modules/react-native/index.js:219:12)
 >      at AppNav (src/navigation/AppNav.js:13:33)
