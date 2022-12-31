@@ -29,12 +29,6 @@ toc: true
   border: 1px solid #8898AA;
   border-radius: 100px;
 }
-[class*="project__functions"] {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-template-rows: repeat(auto, auto);
-  grid-gap: 20px;
-}
 [class*="function__list"] {
   padding: 0;
   list-style-type: none;
@@ -60,10 +54,10 @@ toc: true
   <img src="/assets/img/project_codicon_home.png" alt="Codicon Home" width="100%">
 </div>
 
-<div class=project__content>
+<div class="project__content container">
   <h2 class=content__title>💡 Functions</h2>
-  <div class=project__functions>
-    <div class=function__sector>
+  <div class=row>
+    <div class="col-lg-3 col-md-6">
       <strong>Front End</strong>
       <ul class=function__list>
         <li><i class='function__item fas fa-check'></i>HTML CSS Editor</li>

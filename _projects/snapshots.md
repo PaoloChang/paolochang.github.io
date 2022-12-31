@@ -29,12 +29,6 @@ toc: true
   border: 1px solid #8898AA;
   border-radius: 100px;
 }
-[class*="project__functions"] {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-template-rows: repeat(auto, auto);
-  grid-gap: 20px;
-}
 [class*="function__list"] {
   padding: 0;
   list-style-type: none;
@@ -66,10 +60,10 @@ toc: true
   </ul>
 </div>
 
-<div class=project__content>
+<div class="project__content container">
   <h2 class=content__title>💡 Functions</h2>
-  <div class=project__functions>
-    <div class=function__sector>
+  <div class=row>
+    <div class="col-lg-3 col-md-6">
       <strong>Users</strong>
       <ul class=function__list>
         <li><i class='function__item fas fa-check'></i>User Authentication</li>
@@ -78,17 +72,17 @@ toc: true
         <li><i class='function__item fas fa-check'></i>Direct Messages</li>
       </ul>
     </div>
-    <div class=function__sector>
+    <div class="col-lg-3 col-md-6">
       <strong>Photos</strong>
       <ul class=function__list>
         <li><i class='function__item fas fa-check'></i>Search Photo</li>
         <li><i class='function__item fas fa-check'></i>Like Phoeo</li>
-        <li><i class='function__item fas fa-check'></i>Comment on Photo</li>
+        <li><i class='function__item fas fa-check'></i>Comment Photo</li>
         <li><i class='function__item fas fa-check'></i>Photo Feed</li>
         <li><i class='function__item fas fa-check'></i>Upload Photo</li>
       </ul>
     </div>
-    <div class=function__sector>
+    <div class="col-lg-3 col-md-6">
       <strong>Mobile</strong>
       <ul class=function__list>
         <li><i class='function__item fas fa-check'></i>Navigation</li>
@@ -98,7 +92,7 @@ toc: true
         <li><i class='function__item fas fa-check'></i>Geolocation</li>
       </ul>
     </div>
-    <div class=function__sector>
+    <div class="col-lg-3 col-md-6">
       <strong>Deployment</strong>
       <ul class=function__list>
         <li><i class='function__item fas fa-check'></i>Heroku</li>
