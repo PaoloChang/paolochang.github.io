@@ -26,6 +26,9 @@
     </div>
     <div class="site-subtitle font-italic">{{ site.tagline }}</div>
 
+    {{/* <a href="https://hits.seeyoufarm.com" style="margin-bottom:10px;">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpaolochang%2Fpaolochang.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false"/>
+    </a> */}}
   </div><!-- .profile-wrapper -->
 
   <ul class="w-100">
@@ -81,7 +84,17 @@
 
       {% if url %}
       <a href="{{ url }}" aria-label="{{ entry.type }}"
-        {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
+        {% assign link_types = nil %}
+        {% unless entry.noblank %}
+          {% assign link_types = link_types | append: " noopener" %}
+          target="_blank"
+        {% endunless %}
+
+        {% if entry.type == 'mastodon' %}
+          {% assign link_types = link_types | append: " me" %}
+        {% endif %}
+
+        {% if link_types %}rel="{{ link_types | lstrip }}"{% endif %}>
         <i class="{{ entry.icon }}"></i>
       </a>
       {% endif %}
