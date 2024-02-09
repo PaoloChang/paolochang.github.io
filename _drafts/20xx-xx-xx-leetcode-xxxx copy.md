@@ -1,0 +1,99 @@
+---
+title: "Leetcode xxxx: question"
+date: 20xx-xx-xx 12:00:00 -0500
+description: paolochang github-blog github blog algorithms tree
+categories: [Algorithms, Tree]
+tags: [Algorithm, Leetcode]
+---
+
+<style type='text/css'>
+[class*="easy"] {
+  color: #00B8A3;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 21px;
+  background-color: rgba(0, 184, 163, 0.15);
+}
+[class*="medium"] {
+  color: #FFC01E;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 21px;
+  background-color: #FFC01E26;
+}
+img {
+  left: 0 !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+}
+</style>
+
+<span class=easy>Easy<span>
+
+### Description
+
+description
+
+#### Example 1:
+
+> Input: root = [1,null,2,3]<br/>
+> Output: [1,3,2]
+
+<img src="/assets/img/leetcode_binary_tree_traversal.jpeg" alt="Binary Tree Preorder Traversal" width="auto">
+
+#### Example 2:
+
+> Input: root = []<br/>
+> Output: []
+
+#### Example 3:
+
+> Input: root = [1]<br/>
+> Output: [1]
+
+### Constraints:
+
+- The number of nodes in the tree is in the range `[0, 100]`.
+- `-100 <= Node.val <= 100`
+
+### Follow up
+
+- Recursive solution is trivial, could you do it iteratively?
+
+### Solution
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+  public List<Integer> postorderTraversal(TreeNode root) {
+    List<Integer> list = new ArrayList<>();
+    postorder(root, list);
+    return list;
+  }
+
+  /**
+   * Depth First Traversal: postorder
+   * Left -> Right -> Node
+   */
+  public void postorder(TreeNode root, List<Integer> list) {
+    if (root == null) return;
+    postorder(root.left, list);
+    postorder(root.right, list);
+    list.add(root.val);
+  }
+}
+```
