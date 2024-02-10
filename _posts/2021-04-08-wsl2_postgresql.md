@@ -49,6 +49,6 @@ $ brew services stop postgresql
 ## References
 
 - [PostgreSQL by jonganebski](https://github.com/jonganebski/jonganebski.github.io_old/blob/main/src/posts/blog/2021-02-18.md)
-- [PostgreSQL 8.3 PSQL Cheat Sheet](http://www.postgresonline.com/special_feature.php?sf_name=postgresql83_psql_cheatsheet)
+- [PostgreSQL 8.3 PSQL Cheat Sheet](https://www.postgresonline.com/special_feature.php?sf_name=postgresql83_psql_cheatsheet)
 - [Getting started with PostgreSQL on Mac via Homebrew](https://medium.com/@viviennediegoencarnacion/getting-started-with-postgresql-on-mac-e6a5f48ee399)
 - [How to completely uninstall and reinstall Homebrew Postgres](https://blog.testdouble.com/posts/2021-01-28-how-to-completely-uninstall-homebrew-postgres/)

@@ -148,11 +148,11 @@ Link: [Google](https://google.com, "google link")
 ```
 일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성한다.
 
-* 외부링크: <http://example.com/>
+* 외부링크: <https://example.com/>
 * 이메일링크: <address@example.com>
 ```
 
-- 외부링크: <http://example.com/>
+- 외부링크: <https://example.com/>
 - 이메일링크: <address@example.com>
 
 ## Images
@@ -160,10 +160,10 @@ Link: [Google](https://google.com, "google link")
 ```
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
-```
 
 ![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0)
 ![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0 "RubberDuck")
+```
 
 사이즈 조절 기능은 없기 때문에 `<img width="" height=""></img>`를 이용한다.
 
@@ -172,10 +172,10 @@ Link: [Google](https://google.com, "google link")
 ```
 <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
-```
 
 <img src="http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 <img src="http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0" width="40%" height="30%" title="%(비율) 크기 설정" alt="RubberDuck"></img>
+```
 
 ## Escaping Characters
 
@@ -209,10 +209,10 @@ Link: [Google](https://google.com, "google link")
 ## References
 
 - [Markdown Guide - Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-- [78 Tools for writing and previewing Markdown](http://mashable.com/2013/06/24/markdown-tools/)
-- [John gruber 마크다운 번역](http://nolboo.github.io/blog/2013/09/07/john-gruber-markdown/)
-- [깃허브 취향의 마크다운 번역](http://nolboo.github.io/blog/2014/03/25/github-flavored-markdown/)
-- [허니몬의 마크다운 작성법](http://www.slideshare.net/ihoneymon/ss-40575068)
+- [78 Tools for writing and previewing Markdown](https://mashable.com/archive/markdown-tools)
+- [John gruber 마크다운 번역](https://nolboo.github.io/blog/2013/09/07/john-gruber-markdown/)
+- [깃허브 취향의 마크다운 번역](https://nolboo.github.io/blog/2014/03/25/github-flavored-markdown/)
+- [허니몬의 마크다운 작성법](https://www.slideshare.net/ihoneymon/ss-40575068)
 - [Jekyll: Tooltips](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_adding_tooltips.html#creating-tooltips)
 - [Notion.so](https://www.notion.so/product)
 - [Atom](https://atom.io/)
