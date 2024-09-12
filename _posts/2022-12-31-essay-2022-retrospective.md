@@ -1,7 +1,6 @@
 ---
 title: "개발자의 회고 2022"
 date: 2022-12-31 18:00:00 -0500
-description: paolochang github-blog github blog essay 회고록 retrospective
 categories: [Essay, 회고록]
 tags: [회고록]
 ---

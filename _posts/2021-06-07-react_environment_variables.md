@@ -1,7 +1,6 @@
 ---
 title: "React: Using environment variables"
 date: 2021-06-07 12:00:00 -0500
-description: paolochang github-blog github blog react .env environment variables
 categories: [JavaScript, React]
 tags: [React]
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Vue.js: Environment Setup and Create a Project"
 date: 2023-02-11 14:00:00 -0500
-description: paolochang github-blog github blog vue
 categories: [JavaScript, Vue.js]
 tags: [JavaScript, Vue.js]
 ---

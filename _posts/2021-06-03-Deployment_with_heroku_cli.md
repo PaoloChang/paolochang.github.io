@@ -1,7 +1,6 @@
 ---
 title: Deployment with Heroku CLI
 date: 2021-06-03 12:00:00 -0500
-description: paolochang github-blog github blog deployment heroku
 categories: [Deployment, Heroku]
 tags: [Heroku, Git, Database]
 ---

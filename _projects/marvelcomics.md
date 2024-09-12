@@ -2,7 +2,6 @@
 layout: project
 title: "MARVEL Comics"
 date: 2023-02-27 09:00:00 +0900
-description: paolochang github-blog github blog project marvel comics
 ---
 
 <style type='text/css'>

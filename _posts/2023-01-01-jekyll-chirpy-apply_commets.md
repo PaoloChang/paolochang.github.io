@@ -1,7 +1,6 @@
 ---
 title: "Chirpy Jekyll Theme: Apply Comments"
 date: 2023-01-01 03:00:00 -0500
-description: paolochang github-blog github blog chirpy jekyll comments
 categories: [Jekyll, Chirpy Jekyll Theme]
 tags: [Jekyll, Ruby]
 ---

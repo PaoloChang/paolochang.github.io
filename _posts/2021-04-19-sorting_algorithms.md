@@ -1,7 +1,6 @@
 ---
 title: Sorting Algorithm
 date: 2021-04-19 12:00:00 -0500
-description: paolochang github-blog github blog algorithm sorting
 categories: [Algorithms]
 tags: [Algorithm, Python]
 ---

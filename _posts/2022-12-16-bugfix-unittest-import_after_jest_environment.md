@@ -1,7 +1,6 @@
 ---
 title: "Unit Test: fix `import` a file after the Jest environment has been torn down"
 date: 2022-12-16 12:00:00 -0500
-description: paolochang github-blog github blog unittest jest bugfix
 categories: [Unit Test, Jest]
 tags: [React Native, Bugfix, Unit Test, Jest]
 ---

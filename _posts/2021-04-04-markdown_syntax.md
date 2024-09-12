@@ -1,7 +1,6 @@
 ---
 title: Markdown Syntax 및 사용법
 date: 2021-04-04 12:00:00 -0500
-description: paolochang github-blog github blog markdown syntax
 categories: [Markdown]
 tags: [Markdown]
 ---

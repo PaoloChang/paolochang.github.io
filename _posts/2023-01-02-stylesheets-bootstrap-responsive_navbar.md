@@ -1,7 +1,6 @@
 ---
 title: "Bootstrap: Responsive Navbar"
 date: 2023-01-02 03:00:00 -0500
-description: paolochang github-blog github blog stylesheet bootstrap
 categories: [StyleSheet, Bootstrap]
 tags: [StyleSheet, Bootstrap]
 ---

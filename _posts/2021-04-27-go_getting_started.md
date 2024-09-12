@@ -1,7 +1,6 @@
 ---
 title: "GO Tutorial: Getting started"
 date: 2021-04-27 12:00:00 -0500
-description: paolochang github-blog github blog go
 categories: [Go]
 tags: [Go]
 ---

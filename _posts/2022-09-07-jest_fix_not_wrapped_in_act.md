@@ -1,7 +1,6 @@
 ---
 title: "Unit Test: fix '... was not wrapped in act(...)' warning"
 date: 2022-09-07 12:00:00 -0500
-description: paolochang github-blog github blog jest unit test
 categories: [Unit Test, Jest]
 tags: [React, Jest, Bugfix, Unit Test, React Testing Library]
 ---

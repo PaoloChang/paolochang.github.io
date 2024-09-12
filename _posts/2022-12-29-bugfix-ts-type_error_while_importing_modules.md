@@ -1,7 +1,6 @@
 ---
 title: "TypeScript: fix Type error while importing open source modules"
 date: 2022-12-29 03:00:00 -0500
-description: paolochang github-blog github blog typescript bugfix
 categories: [JavaScript, TypeScript]
 tags: [TypeScript, Bugfix]
 ---

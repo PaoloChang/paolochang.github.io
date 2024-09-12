@@ -1,7 +1,6 @@
 ---
 title: "React Native: fix Component return number"
 date: 2022-12-17 03:00:00 -0500
-description: paolochang github-blog github blog unittest jest bugfix
 categories: [Mobile, React Native]
 tags: [React Native, Bugfix]
 ---

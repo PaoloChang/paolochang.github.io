@@ -2,7 +2,6 @@
 layout: project
 title: Videoify
 date: 2022-12-07 09:00:00 +0900
-description: paolochang github-blog github blog project videoify youtube
 ---
 
 <style type='text/css'>

@@ -1,7 +1,6 @@
 ---
 title: "ES6, CommonJS: import vs require 차이"
 date: 2021-08-23 12:00:00 -0500
-description: paolochang github-blog github blog nodejs es6 commonjs import require
 categories: [JavaScript, Node.js]
 tags: [JavaScript, Node.js]
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Python: Let's build web scrapper using Beautiful Soup"
 date: 2023-01-08 12:00:00 -0500
-description: paolochang github-blog github blog python requests beautifulsoup4
 categories: [Programming Language, Python]
 tags: [Python, Web Scrapping]
 ---

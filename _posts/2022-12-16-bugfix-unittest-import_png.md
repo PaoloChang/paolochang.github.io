@@ -1,7 +1,6 @@
 ---
 title: "Unit Test: fix Invalid or unexpected token on jest image PNG"
 date: 2022-12-16 14:00:00 -0500
-description: paolochang github-blog github blog unittest jest bugfix
 categories: [Unit Test, Jest]
 tags: [React Native, Bugfix, Unit Test, Jest]
 ---

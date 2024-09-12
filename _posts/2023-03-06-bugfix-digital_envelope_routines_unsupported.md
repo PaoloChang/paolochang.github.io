@@ -1,7 +1,6 @@
 ---
 title: "React: fix digital envelope routines::unsupported"
 date: 2023-03-06 12:00:00 -0500
-description: paolochang github-blog github blog javascript react bugfix
 categories: [JavaScript, React]
 tags: [React, Bugfix]
 ---

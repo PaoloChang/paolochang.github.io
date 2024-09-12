@@ -1,7 +1,6 @@
 ---
 title: Jekyll Facebook Comments Plugin
 date: 2021-04-08 12:00:00 -0500
-description: paolochang github-blog github blog minimal-mistakes plugin
 categories: [Jekyll, Minimal Mistakes]
 tags: [Jekyll, Minimal Mistakes]
 ---

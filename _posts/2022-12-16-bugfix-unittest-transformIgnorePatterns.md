@@ -1,7 +1,6 @@
 ---
 title: "Unit Test: Cannot set properties of undefined (settings 'call')"
 date: 2022-12-16 16:00:00 -0500
-description: paolochang github-blog github blog unittest jest bugfix
 categories: [Unit Test, Jest]
 tags: [React Native, Bugfix, Unit Test, Jest]
 ---

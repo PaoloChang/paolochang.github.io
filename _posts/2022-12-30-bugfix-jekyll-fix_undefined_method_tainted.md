@@ -1,7 +1,6 @@
 ---
 title: "Chirpy Jekyll Theme: fix undefined method `tainted?`"
 date: 2022-12-30 03:00:00 -0500
-description: paolochang github-blog github blog bugfix chirpy jekyll theme
 categories: [Jekyll, Chirpy Jekyll Theme]
 tags: [Jekyll, Bugfix]
 ---

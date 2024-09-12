@@ -1,7 +1,6 @@
 ---
 title: Introduction of PostgreSQL on terminal
 date: 2021-04-08 12:01:00 -0500
-description: paolochang github-blog github blog linux wsl2 macos postgresql
 categories: [Database, PostgreSQL]
 tags: [Linux, WSL2, MacOS, PostgreSQL]
 ---

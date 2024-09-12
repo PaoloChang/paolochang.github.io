@@ -1,7 +1,6 @@
 ---
 title: Install Homebrew on WSL2
 date: 2021-05-27 12:00:00 -0500
-description: paolochang github-blog github blog homebrew
 categories: [Setup]
 tags: [WSL2, Homebrew]
 ---

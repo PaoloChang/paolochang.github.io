@@ -1,7 +1,6 @@
 ---
 title: "Git: Rename a Local and Remote Git Branch"
 date: 2022-03-07 12:00:00 -0500
-description: paolochang github-blog github blog rename git branch
 categories: [Version Control, Git]
 tags: [Git]
 ---

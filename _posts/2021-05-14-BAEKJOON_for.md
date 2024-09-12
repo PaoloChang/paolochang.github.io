@@ -1,7 +1,6 @@
 ---
 title: "BAEKJOON: for 문"
 date: 2021-05-14 12:00:00 -0500
-description: paolochang github-blog github blog baekjoon 백준 algorithms 알고리즘 for
 categories: [Algorithms]
 tags: [BAEKJOON]
 ---

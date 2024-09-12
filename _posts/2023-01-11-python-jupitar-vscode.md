@@ -1,7 +1,6 @@
 ---
 title: "Tools: using Jupyter Notebook in VSCode"
 date: 2023-01-11 12:00:00 -0500
-description: paolochang github-blog github blog python jupyter notebooks
 categories: [Tools, Editor]
 tags: [Python, Tools]
 ---

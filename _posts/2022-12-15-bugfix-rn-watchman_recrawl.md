@@ -1,7 +1,6 @@
 ---
 title: "React Native: fix watchman Recrawled warning"
 date: 2022-12-15 12:00:00 -0500
-description: paolochang github-blog github blog reactnative mobile bugfix
 categories: [Mobile, React Native]
 tags: [React Native, Bugfix]
 ---

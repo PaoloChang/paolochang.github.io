@@ -2,7 +2,6 @@
 layout: project
 title: JOB & SEARCHER
 date: 2023-01-11 09:00:00 +0900
-description: paolochang github-blog github blog project jobandsearcher
 ---
 
 <style type='text/css'>

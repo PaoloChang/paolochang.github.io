@@ -1,7 +1,6 @@
 ---
 title: "Python: fix importing installed package which could not be resolved"
 date: 2023-01-06 12:00:00 -0500
-description: paolochang github-blog github blog bugfix python
 categories: [Programming Language, Python]
 tags: [Bugfix, Python]
 ---

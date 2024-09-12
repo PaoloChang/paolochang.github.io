@@ -1,7 +1,5 @@
 <!-- The Top Bar -->
 
-{% include lang.html %} {% assign item = page.title | downcase %}
-
 <header id="topbar-wrapper" aria-label="Top Bar">
   <div
     id="topbar"
@@ -11,51 +9,31 @@
       {% assign paths = page.url | split: '/' %} {% if paths.size == 0 or
       page.layout == 'home' %}
       <!-- index page -->
-      <span>{{ site.data.locales[lang].tabs.home | capitalize }}</span>
+      <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
 
       {% else %} {% for item in paths %} {% if forloop.first %}
       <span>
         <a href="{{ '/' | relative_url }}">
-          {{ site.data.locales[lang].tabs.home | capitalize }}
+          {{- site.data.locales[include.lang].tabs.home | capitalize -}}
         </a>
       </span>
 
       {% elsif forloop.last %} {% if page.collection == 'tabs' %}
-      <span>
-        {{ site.data.locales[lang].tabs[item] | default: page.title }}
-      </span>
+      <span
+        >{{ site.data.locales[include.lang].tabs[item] | default: page.title
+        }}</span
+      >
       {% else %}
-        {% for item in paths %}
-          {% if forloop.first %}
-            <span>
-              <a href="{{ '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs.home | capitalize -}}
-              </a>
-            </span>
-
-          {% elsif forloop.last %}
-            {% if page.collection == 'tabs' %}
-              <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
-            {% else %}
-              <span>{{ page.title }}</span>
-            {% endif %}
-
-          {% elsif page.layout == 'category' or page.layout == 'tag' or page.layout == 'project' %}
-            <span>
-              <a href="{{ item | append: '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
-              </a>
-            </span>
-            <!-- HOLD FOR 'project'
-            <span>
-              <a href="{{ item | relative_url }}">
-                {{ site.data.locales[include.lang].tabs[item] | default: page.title }}
-              </a>
-            </span>
-            -->
-          {% endif %}
-        {% endfor %}
-      {% endif %}
+      <span>{{ page.title }}</span>
+      {% endif %} {% elsif page.layout == 'category' or page.layout == 'tag' or
+      page.layout == 'project' %}
+      <span>
+        <a href="{{ item | append: '/' | relative_url }}">
+          {{- site.data.locales[include.lang].tabs[item] | default: page.title
+          -}}
+        </a>
+      </span>
+      {% endif %} {% endfor %} {% endif %}
     </nav>
     <!-- endof #breadcrumb -->
 

@@ -1,7 +1,6 @@
 ---
 title: "Node.js: Switch Node Version with Node Version Manager"
 date: 2022-08-24 12:00:00 -0500
-description: paolochang github-blog github blog nodejs node version manager nvm
 categories: [JavaScript, Node.js]
 tags: [Node.js, NVM, Homebrew]
 ---

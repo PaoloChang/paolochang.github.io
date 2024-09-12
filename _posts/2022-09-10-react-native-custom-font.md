@@ -1,7 +1,6 @@
 ---
 title: "React Native: use custom fonts"
 date: 2022-09-10 12:00:00 -0500
-description: paolochang github-blog github blog react native expo font
 categories: [Mobile, React Native]
 tags: [React Native, Expo]
 ---
